@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/note"
+    tools:context="com.rajramchandani.notemakingapp.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        style="@style/AlertDialog.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        android:textAlignment="gravity"
+        android:theme="?attr/actionBarTheme"
+        app:title="Welcome to Notes App" />
+</android.support.constraint.ConstraintLayout>
